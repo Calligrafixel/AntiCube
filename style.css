@@ -1,0 +1,149 @@
+@import url("https://use.typekit.net/bgb7ola.css");
+* {
+    margin: 0 auto;
+    font-family: 'Pretendard-Regular';
+    
+    transition-duration: .4s;
+}
+
+body {
+    background-color: #111;
+    
+    font-family: "pretendard", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+/*
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+*/
+    
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#container {
+
+}
+
+header {    
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    
+    background-color: white;
+}
+header div {
+    position: relative;
+    top: .5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.15rem;
+    
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    position: fixed;
+    top: 3rem;
+    width: 100vw;
+    height: 3rem;
+    
+/*    text-align: left;*/
+background: linear-gradient(0deg, rgba(17,17,17,0) 0%, rgba(17,17,17,1) 21%);
+
+}
+nav a {
+    position: relative;
+    top: .5rem;
+    margin-left: .7rem;
+    margin-right: 1rem;
+    
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    position: absolute;
+    top: 6rem;
+    left: 10vw;
+    
+    color: white;
+    z-index: -1;
+    
+    padding: 0 2rem;
+}
+article {
+    width: 40vw;
+/*    border-right: 1px solid #aaa;*/
+/*    background: #222;*/
+}
+
+article h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+article p {
+    margin-left: 1rem;
+    width: 36vw;
+    color: #ccc;
+    
+    font-size: 1rem;
+    line-height: 1.4;
+    
+    word-break: keep-all;
+}
+#image {
+    position: fixed;
+    top: calc(50vh - 15vw);
+    left: 60vw;
+    text-align: center;
+}
+#image img {
+    width: 30vw;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+
+/*    background-color: grade;*/
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 21%);
+    color: #111;
+    
+    font-size: .7rem;
+    font-family: "pretendard", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer span {
+    position: relative;
+/*    left: .5rem;*/
+}
+
+
+/*interacion*/
+
+.span_cube {
+    cursor: grab;
+    color: #fff;
+}
+.span_hexagon {
+    font-size: 1.5rem;
+    line-height: 0;
+}
+.ad {
+    position: fixed;
+    top: 10vh;
+    left: 50vw;
+    width: 4rem;
+    display: none;
+    z-index: 1000;
+}
